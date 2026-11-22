@@ -1,0 +1,11 @@
+{
+  "case_id": "d35.6_v7.86",
+  "time_scale": 0.5,
+  "comparison_time_scale": 1,
+  "differences_pct": {
+    "rise_10_90_s": -1.0342119356113946,
+    "settling_2pct_s": -3.151164238297248e-14
+  },
+  "pass": true,
+  "definition": "Both10-90rise and sampled+/-2%-of-optical-increment settling must change<=2%."
+}

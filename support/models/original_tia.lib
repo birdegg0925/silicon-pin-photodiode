@@ -1,0 +1,29 @@
+* Educational two-stage CMOS operational amplifier
+* Generic long-channel Level-1 models; not tied to a fabrication process.
+
+.model NM NMOS (LEVEL=1 VTO=0.45 KP=200u LAMBDA=0.0005 GAMMA=0.40 PHI=0.70)
+.model PM PMOS (LEVEL=1 VTO=-0.45 KP=80u LAMBDA=0.0005 GAMMA=0.40 PHI=0.70)
+
+* Pins: non-inverting input, inverting input, output, VDD, VSS
+.subckt CMOS_OPAMP VINP VINM OUT VDD VSS params: CCOMP=1p BIAS_SCALE=1 IN_SCALE=1 OUT_SCALE=1
+
+* Ideal bias references drive MOS current-source devices.  Their gates draw
+* no DC current; supply current is still drawn by M5 and M7 from VDD.
+VBN BIASN VSS {0.67*BIAS_SCALE}
+BVP BIASP VSS V=V(VDD,VSS)-0.63*BIAS_SCALE
+
+* First stage: NMOS differential pair with PMOS current-mirror load.
+M1 NDIFF VINM NTAIL VSS NM W={40u*IN_SCALE} L=1u
+M2 N1    VINP NTAIL VSS NM W={40u*IN_SCALE} L=1u
+M3 NDIFF NDIFF VDD   VDD PM W=80u L=1u
+M4 N1    NDIFF VDD   VDD PM W=80u L=1u
+M5 NTAIL BIASN VSS   VSS NM W=20u L=1u
+
+* Second stage: NMOS common-source gain stage with PMOS current-source load.
+M6 OUT N1    VSS VSS NM W={160u*OUT_SCALE} L=1u
+M7 OUT BIASP VDD VDD PM W=160u L=1u
+
+* Internal Miller compensation; distinct from the TIA feedback capacitor Cf.
+CCOMPENSATION N1 OUT {CCOMP}
+
+.ends CMOS_OPAMP

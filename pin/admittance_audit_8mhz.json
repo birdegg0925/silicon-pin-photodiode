@@ -1,0 +1,38 @@
+[
+  {
+    "case_id": "d20.8_v4.15",
+    "sampled_low_hz": 1000.0,
+    "sampled_high_hz": 8000000.0,
+    "max_complex_transfer_change_pct": 0.0007200803822947736,
+    "worst_frequency_hz": 8000000.0,
+    "max_absolute_magnitude_change_pct": 0.0006598513208277978,
+    "scope": "CALCULATED linear loading correction, maximum among directly simulated device Y points <=8MHz; not continuous-band proof or nonlinear cosimulation"
+  },
+  {
+    "case_id": "d35.6_v1.55",
+    "sampled_low_hz": 1000.0,
+    "sampled_high_hz": 8000000.0,
+    "max_complex_transfer_change_pct": 0.5728397961636872,
+    "worst_frequency_hz": 8000000.0,
+    "max_absolute_magnitude_change_pct": 0.5592632904809713,
+    "scope": "CALCULATED linear loading correction, maximum among directly simulated device Y points <=8MHz; not continuous-band proof or nonlinear cosimulation"
+  },
+  {
+    "case_id": "d35.6_v4.15",
+    "sampled_low_hz": 1000.0,
+    "sampled_high_hz": 8000000.0,
+    "max_complex_transfer_change_pct": 0.12544767403374152,
+    "worst_frequency_hz": 8000000.0,
+    "max_absolute_magnitude_change_pct": 0.11764463103971501,
+    "scope": "CALCULATED linear loading correction, maximum among directly simulated device Y points <=8MHz; not continuous-band proof or nonlinear cosimulation"
+  },
+  {
+    "case_id": "d35.6_v7.86",
+    "sampled_low_hz": 1000.0,
+    "sampled_high_hz": 8000000.0,
+    "max_complex_transfer_change_pct": 0.009991478811569723,
+    "worst_frequency_hz": 8000000.0,
+    "max_absolute_magnitude_change_pct": 0.008941467177103757,
+    "scope": "CALCULATED linear loading correction, maximum among directly simulated device Y points <=8MHz; not continuous-band proof or nonlinear cosimulation"
+  }
+]

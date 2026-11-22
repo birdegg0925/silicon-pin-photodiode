@@ -1,0 +1,6 @@
+case_id,device_rise_ns,device_settling_ns,tia_electrical_bw_mhz,receiver_optical_bw_mhz,optical_bandwidth_method
+d7.9_v4.15,0.1887163440350457,0.325,7.360133357312488,7.3600663717952886,CALCULATED linear cascade of simulated optical step increments and SPICE AC; not nonlinear TCAD/SPICE cosimulation
+d20.8_v4.15,0.9614662712792585,1.825,6.2415578738354,6.239779764216599,CALCULATED linear cascade of simulated optical step increments and SPICE AC; not nonlinear TCAD/SPICE cosimulation
+d35.6_v1.55,78.78287789118956,230.00000000000003,6.469217404283134,3.728334289642624,CALCULATED linear cascade of simulated optical step increments and SPICE AC; not nonlinear TCAD/SPICE cosimulation
+d35.6_v4.15,10.372852079580547,55.499999999999886,6.088376769471232,5.312824925276719,CALCULATED linear cascade of simulated optical step increments and SPICE AC; not nonlinear TCAD/SPICE cosimulation
+d35.6_v7.86,1.699899756277028,5.249999999999999,5.912414227167855,5.89934255698705,CALCULATED linear cascade of simulated optical step increments and SPICE AC; not nonlinear TCAD/SPICE cosimulation

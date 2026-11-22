@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="450" viewBox="0 0 760 450">
+<rect width="760" height="450" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#222">
+<text x="380" y="32" text-anchor="middle" font-size="20">35.6 µm silicon PIN detector at 850 nm</text>
+<line x1="90" y1="350.0" x2="660" y2="350.0" stroke="#ddd"/>
+<text x="78" y="355.0" text-anchor="end" font-size="13">0</text>
+<line x1="90" y1="296.0" x2="660" y2="296.0" stroke="#ddd"/>
+<text x="78" y="301.0" text-anchor="end" font-size="13">16</text>
+<line x1="90" y1="242.0" x2="660" y2="242.0" stroke="#ddd"/>
+<text x="78" y="247.0" text-anchor="end" font-size="13">32</text>
+<line x1="90" y1="188.0" x2="660" y2="188.0" stroke="#ddd"/>
+<text x="78" y="193.0" text-anchor="end" font-size="13">48</text>
+<line x1="90" y1="134.0" x2="660" y2="134.0" stroke="#ddd"/>
+<text x="78" y="139.0" text-anchor="end" font-size="13">64</text>
+<line x1="90" y1="80.0" x2="660" y2="80.0" stroke="#ddd"/>
+<text x="78" y="85.0" text-anchor="end" font-size="13">80</text>
+<path d="M90 80V350H660" fill="none" stroke="#333"/>
+<text x="25" y="215" text-anchor="middle" transform="rotate(-90 25 215)">10–90% rise time (ns)</text>
+<text x="375" y="396" text-anchor="middle">Reverse bias (V)</text>
+<text x="134.78571428571428" y="373" text-anchor="middle">1.55</text>
+<text x="346.50000000000006" y="373" text-anchor="middle">4.15</text>
+<text x="648.6" y="373" text-anchor="middle">7.86</text>
+<polyline points="134.78571428571428,84.10778711723526 346.50000000000006,314.99162423141564 648.6,344.262838322565" fill="none" stroke="#1565a5" stroke-width="2.5"/>
+<circle cx="134.78571428571428" cy="84.10778711723526" r="4" fill="#1565a5"/>
+<circle cx="346.50000000000006" cy="314.99162423141564" r="4" fill="#1565a5"/>
+<circle cx="648.6" cy="344.262838322565" r="4" fill="#1565a5"/>
+<line x1="100" y1="424" x2="125" y2="424" stroke="#1565a5" stroke-width="3"/>
+<text x="132" y="429" font-size="12">Simulated detector response</text>
+</g></svg>

@@ -1,0 +1,73 @@
+{
+  "config": {
+    "thickness_um": 7.9,
+    "area_cm2": 0.0025,
+    "bulk_doping_cm3": 10000000000000.0,
+    "contact_doping_cm3": 1e+17,
+    "contact_um": 0.3,
+    "junction_smoothing_um": 0.02,
+    "mesh_scale": 1,
+    "lifetime_s": 1e-06,
+    "wavelength_nm": 850.0,
+    "alpha_cm": 534.0,
+    "refractive_index": 3.641,
+    "optical_power_w": 1e-06,
+    "temperature_k": 300.0,
+    "intrinsic_cm3": 9650000000.0
+  },
+  "metrics": {
+    "thickness_um": 7.9,
+    "reverse_bias_v": 1.55,
+    "mesh_scale": 1,
+    "lifetime_s": 1e-06,
+    "incident_power_w": 1e-06,
+    "dark_current_a": 1.0898425080120896e-09,
+    "photocurrent_a": 1.6254156809501798e-07,
+    "responsivity_a_w": 0.162541568095018,
+    "capacitance_dark_100khz_f": 3.423732379926356e-12,
+    "capacitance_light_100khz_f": 3.4237422488929357e-12,
+    "dark_charge_derivative_f": 9.552369966825889e-23,
+    "geometric_absorber_capacitance_f": 3.2782910572708852e-12,
+    "absorbed_photon_responsivity_ceiling_a_w": 0.16913312689983268,
+    "collected_fraction_of_absorbed_photons": 0.9610273934761553,
+    "max_field_v_cm": 11771.931567445194,
+    "current_imbalance_a": 2.6469779601696886e-23,
+    "nodes": 403,
+    "rise_10_90_s": 3.3824556592390143e-10,
+    "settling_2pct_s": 5.75e-10,
+    "final_relative_error": 0.0,
+    "source_displacement_check_max_a": 5.293955920339377e-23
+  },
+  "dc_dark_checks": {
+    "anode_current_a": -1.0898425080120896e-09,
+    "cathode_current_a": 1.0898425080120896e-09,
+    "current_imbalance_a": 0.0,
+    "max_field_v_cm": 11771.93051337025,
+    "current_density_spread_a_cm2": 5.293955920339377e-23
+  },
+  "dc_light_checks": {
+    "anode_current_a": -1.6363141060303004e-07,
+    "cathode_current_a": 1.6363141060303007e-07,
+    "current_imbalance_a": 2.6469779601696886e-23,
+    "max_field_v_cm": 11771.931567445194,
+    "current_density_spread_a_cm2": 1.3552527156068805e-20
+  },
+  "source_sha256": "93ba500e12f76e8eeaf2d276255b0442ed63bbb950229e9680f39d03c5292140",
+  "engine": "DEVSIM 2.11.0 / UMFPACK",
+  "status": "SIMULATED except analytic checks explicitly named",
+  "transient": {
+    "step_initial_scale": 0.9,
+    "step_final_scale": 1.0,
+    "time_scale": 1,
+    "time_end_s": 2e-06,
+    "initial_current_a": 1.4737725091463895e-07,
+    "final_current_a": 1.6363141060303007e-07,
+    "t10_s": 1.9840972276740148e-11,
+    "t90_s": 3.5808653820064156e-10,
+    "rise_10_90_s": 3.3824556592390143e-10,
+    "settling_2pct_s": 5.75e-10,
+    "final_relative_error": 0.0,
+    "max_normalised": 1.0,
+    "source_displacement_check_max_a": 5.293955920339377e-23
+  }
+}

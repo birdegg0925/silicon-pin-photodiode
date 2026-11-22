@@ -1,0 +1,9 @@
+{
+  "case_id": "d20.8_v4.15",
+  "mesh_scale": 0.5,
+  "relative_differences_pct": {
+    "responsivity_a_w": -0.0001523843643033163,
+    "capacitance_light_100khz_f": 2.741078941258938e-05
+  },
+  "pass": true
+}

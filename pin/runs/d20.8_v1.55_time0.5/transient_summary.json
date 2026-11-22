@@ -1,0 +1,15 @@
+{
+  "step_initial_scale": 0.9,
+  "step_final_scale": 1.0,
+  "time_scale": 0.5,
+  "time_end_s": 2e-06,
+  "initial_current_a": 2.809105596851792e-07,
+  "final_current_a": 3.118914675120123e-07,
+  "t10_s": 9.99312906913739e-11,
+  "t90_s": 5.174928234573868e-09,
+  "rise_10_90_s": 5.074996943882494e-09,
+  "settling_2pct_s": 1.2937499999999966e-08,
+  "final_relative_error": 3.4416913763379853e-15,
+  "max_normalised": 0.9999999999999966,
+  "source_displacement_check_max_a": 1.5881867761018131e-22
+}

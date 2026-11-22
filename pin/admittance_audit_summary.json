@@ -1,0 +1,46 @@
+[
+  {
+    "case_id": "d20.8_v4.15",
+    "simulated_device_frequency_points": 35,
+    "sampled_band_low_hz": 1000.0,
+    "sampled_band_high_hz": 4000000.0,
+    "max_complex_transfer_change_pct_below4mhz": 0.00010766072384387489,
+    "worst_frequency_hz": 3838766.207332969,
+    "max_absolute_magnitude_change_pct_below4mhz": 6.64008529160931e-05,
+    "max_absolute_phase_change_deg_below4mhz": 4.855547039116242e-05,
+    "scope": "Maximum among sampled device frequencies\u22644MHz; not proof of a continuous-band supremum"
+  },
+  {
+    "case_id": "d35.6_v1.55",
+    "simulated_device_frequency_points": 35,
+    "sampled_band_low_hz": 1000.0,
+    "sampled_band_high_hz": 4000000.0,
+    "max_complex_transfer_change_pct_below4mhz": 0.10683190975818914,
+    "worst_frequency_hz": 4000000.0,
+    "max_absolute_magnitude_change_pct_below4mhz": 0.08265904473262475,
+    "max_absolute_phase_change_deg_below4mhz": 0.03879363827723275,
+    "scope": "Maximum among sampled device frequencies\u22644MHz; not proof of a continuous-band supremum"
+  },
+  {
+    "case_id": "d35.6_v4.15",
+    "simulated_device_frequency_points": 35,
+    "sampled_band_low_hz": 1000.0,
+    "sampled_band_high_hz": 4000000.0,
+    "max_complex_transfer_change_pct_below4mhz": 0.023026850154928988,
+    "worst_frequency_hz": 4000000.0,
+    "max_absolute_magnitude_change_pct_below4mhz": 0.015717579714302765,
+    "max_absolute_phase_change_deg_below4mhz": 0.009642694743964637,
+    "scope": "Maximum among sampled device frequencies\u22644MHz; not proof of a continuous-band supremum"
+  },
+  {
+    "case_id": "d35.6_v7.86",
+    "simulated_device_frequency_points": 35,
+    "sampled_band_low_hz": 1000.0,
+    "sampled_band_high_hz": 4000000.0,
+    "max_complex_transfer_change_pct_below4mhz": 0.0018557216492978389,
+    "worst_frequency_hz": 4000000.0,
+    "max_absolute_magnitude_change_pct_below4mhz": 0.0011648656783935785,
+    "max_absolute_phase_change_deg_below4mhz": 0.0008276841100490857,
+    "scope": "Maximum among sampled device frequencies\u22644MHz; not proof of a continuous-band supremum"
+  }
+]

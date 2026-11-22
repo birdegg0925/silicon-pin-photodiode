@@ -1,0 +1,21 @@
+{
+  "scope": "Fixed-parameter PIN photodiode grid and coupling to the selected TIA readout.",
+  "selection_policy": "The full grid is evaluated with fixed inputs. Reference selection uses the stated physics, responsivity and timing checks.",
+  "pin": {
+    "seed": 619733,
+    "thickness_um": [
+      7.9,
+      20.8,
+      35.6
+    ],
+    "reverse_bias_v": [
+      1.55,
+      4.15,
+      7.86
+    ],
+    "fixed": "850 nm, 300 K, 0.25 mm2 area, 1 uW incident light and the documented silicon/SRH model.",
+    "grid": "Full 3x3 thickness-by-bias factorial.",
+    "selection": "Reference candidates must pass the physics checks, have responsivity >=0.28 A/W and time-step-converged optical 2% settling <=10 ns. Among passing cases, select the lowest bias, then the higher responsivity.",
+    "validation": "Photon budget, terminal-current balance, field-model domain and transient endpoint checks. Consecutive time-step refinement requires <=2% change in rise and settling times for the 20.8 and 35.6 um cases. The selected reference has a DC/capacitance mesh check and a separate carrier-inventory capacitance crosscheck."
+  }
+}

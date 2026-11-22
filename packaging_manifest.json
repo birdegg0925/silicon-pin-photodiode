@@ -1,0 +1,553 @@
+{
+  "included_files": [
+    "run_pin_revision.py",
+    "pin_receiver_revision.py",
+    "protocol.json",
+    "requirements.txt",
+    "tia/selection.json",
+    "tia/original_tia.lib",
+    "support/scripts/pin_device.py",
+    "support/scripts/tia_interface.py",
+    "support/scripts/run_study.py",
+    "support/references/physical_parameters.md",
+    "pin/summary.json",
+    "pin/summary.csv",
+    "pin/receiver_summary.csv",
+    "pin/mesh_check.json",
+    "pin/receiver_summary.json",
+    "pin/receiver_inputs.json",
+    "pin/admittance_audit_8mhz.json",
+    "pin/selection.json",
+    "pin/capacitance_crosscheck.json",
+    "pin/admittance_audit_summary.json",
+    "pin/receiver_halfstep/d35.6_v1.55/tran/summary.json",
+    "pin/receiver_halfstep/d35.6_v1.55/tran/run.json",
+    "pin/receiver_runs/d35.6_v4.15/ac/summary.json",
+    "pin/receiver_runs/d35.6_v4.15/ac/run.json",
+    "pin/receiver_runs/d35.6_v4.15/op/summary.json",
+    "pin/receiver_runs/d35.6_v4.15/op/run.json",
+    "pin/receiver_runs/d35.6_v4.15/noise/summary.json",
+    "pin/receiver_runs/d35.6_v4.15/noise/run.json",
+    "pin/receiver_runs/d35.6_v4.15/tran/summary.json",
+    "pin/receiver_runs/d35.6_v4.15/tran/run.json",
+    "pin/receiver_runs/d20.8_v4.15/ac/summary.json",
+    "pin/receiver_runs/d20.8_v4.15/ac/run.json",
+    "pin/receiver_runs/d20.8_v4.15/op/summary.json",
+    "pin/receiver_runs/d20.8_v4.15/op/run.json",
+    "pin/receiver_runs/d20.8_v4.15/noise/summary.json",
+    "pin/receiver_runs/d20.8_v4.15/noise/run.json",
+    "pin/receiver_runs/d20.8_v4.15/tran/summary.json",
+    "pin/receiver_runs/d20.8_v4.15/tran/run.json",
+    "pin/receiver_runs/d35.6_v1.55/ac/summary.json",
+    "pin/receiver_runs/d35.6_v1.55/ac/run.json",
+    "pin/receiver_runs/d35.6_v1.55/op/summary.json",
+    "pin/receiver_runs/d35.6_v1.55/op/run.json",
+    "pin/receiver_runs/d35.6_v1.55/noise/summary.json",
+    "pin/receiver_runs/d35.6_v1.55/noise/run.json",
+    "pin/receiver_runs/d35.6_v1.55/tran/summary.json",
+    "pin/receiver_runs/d35.6_v1.55/tran/run.json",
+    "pin/receiver_runs/d7.9_v4.15/ac/summary.json",
+    "pin/receiver_runs/d7.9_v4.15/ac/run.json",
+    "pin/receiver_runs/d7.9_v4.15/op/summary.json",
+    "pin/receiver_runs/d7.9_v4.15/op/run.json",
+    "pin/receiver_runs/d7.9_v4.15/noise/summary.json",
+    "pin/receiver_runs/d7.9_v4.15/noise/run.json",
+    "pin/receiver_runs/d7.9_v4.15/tran/summary.json",
+    "pin/receiver_runs/d7.9_v4.15/tran/run.json",
+    "pin/receiver_runs/d35.6_v7.86/ac/summary.json",
+    "pin/receiver_runs/d35.6_v7.86/ac/run.json",
+    "pin/receiver_runs/d35.6_v7.86/op/summary.json",
+    "pin/receiver_runs/d35.6_v7.86/op/run.json",
+    "pin/receiver_runs/d35.6_v7.86/noise/summary.json",
+    "pin/receiver_runs/d35.6_v7.86/noise/run.json",
+    "pin/receiver_runs/d35.6_v7.86/tran/summary.json",
+    "pin/receiver_runs/d35.6_v7.86/tran/run.json",
+    "pin/runs/d35.6_v4.15/summary.json",
+    "pin/runs/d35.6_v4.15/transient_summary.json",
+    "pin/runs/d7.9_v7.86/summary.json",
+    "pin/runs/d7.9_v7.86/transient_summary.json",
+    "pin/runs/d20.8_v7.86_time0.5/refinement_check.json",
+    "pin/runs/d20.8_v7.86_time0.5/summary.json",
+    "pin/runs/d20.8_v7.86_time0.5/transient_summary.json",
+    "pin/runs/d20.8_v4.15_time0.5/refinement_check.json",
+    "pin/runs/d20.8_v4.15_time0.5/summary.json",
+    "pin/runs/d20.8_v4.15_time0.5/transient_summary.json",
+    "pin/runs/d20.8_v4.15/summary.json",
+    "pin/runs/d20.8_v4.15/transient_summary.json",
+    "pin/runs/d7.9_v1.55/summary.json",
+    "pin/runs/d7.9_v1.55/transient_summary.json",
+    "pin/runs/d35.6_v1.55_time0.5/refinement_check.json",
+    "pin/runs/d35.6_v1.55_time0.5/summary.json",
+    "pin/runs/d35.6_v1.55_time0.5/transient_summary.json",
+    "pin/runs/d20.8_v7.86_time0.25/refinement_check.json",
+    "pin/runs/d20.8_v7.86_time0.25/summary.json",
+    "pin/runs/d20.8_v7.86_time0.25/transient_summary.json",
+    "pin/runs/d20.8_v1.55/summary.json",
+    "pin/runs/d20.8_v1.55/transient_summary.json",
+    "pin/runs/d35.6_v1.55/summary.json",
+    "pin/runs/d35.6_v1.55/transient_summary.json",
+    "pin/runs/d20.8_v7.86/summary.json",
+    "pin/runs/d20.8_v7.86/transient_summary.json",
+    "pin/runs/d7.9_v4.15/summary.json",
+    "pin/runs/d7.9_v4.15/transient_summary.json",
+    "pin/runs/d35.6_v7.86/summary.json",
+    "pin/runs/d35.6_v7.86/transient_summary.json",
+    "pin/runs/d35.6_v7.86_time0.5/refinement_check.json",
+    "pin/runs/d35.6_v7.86_time0.5/summary.json",
+    "pin/runs/d35.6_v7.86_time0.5/transient_summary.json",
+    "pin/runs/d20.8_v4.15_meshhalf/summary.json",
+    "pin/runs/d35.6_v4.15_time0.5/refinement_check.json",
+    "pin/runs/d35.6_v4.15_time0.5/summary.json",
+    "pin/runs/d35.6_v4.15_time0.5/transient_summary.json",
+    "pin/runs/d20.8_v1.55_time0.5/refinement_check.json",
+    "pin/runs/d20.8_v1.55_time0.5/summary.json",
+    "pin/runs/d20.8_v1.55_time0.5/transient_summary.json"
+  ],
+  "not_included": [
+    {
+      "path": "pin/optical_transfer_d7.9_v4.15.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/optical_transfer_d20.8_v4.15.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/optical_transfer_d35.6_v1.55.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/admittance_audit.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/optical_transfer_d35.6_v7.86.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/optical_transfer_d35.6_v4.15.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/dense_admittance/d20.8_v4.15.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/dense_admittance/d35.6_v4.15.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/dense_admittance/d35.6_v7.86.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/dense_admittance/d35.6_v1.55.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/figures/01_device.png",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/figures/02_receiver.png",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/figures/03_bandwidth.png",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/metrics.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_halfstep/d35.6_v1.55/tran/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v4.15/ac/transimpedance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v4.15/ac/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v4.15/op/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v4.15/noise/noise.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v4.15/noise/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v4.15/tran/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d20.8_v4.15/ac/transimpedance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d20.8_v4.15/ac/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d20.8_v4.15/op/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d20.8_v4.15/noise/noise.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d20.8_v4.15/noise/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d20.8_v4.15/tran/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v1.55/ac/transimpedance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v1.55/ac/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v1.55/op/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v1.55/noise/noise.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v1.55/noise/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v1.55/tran/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d7.9_v4.15/ac/transimpedance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d7.9_v4.15/ac/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d7.9_v4.15/op/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d7.9_v4.15/noise/noise.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d7.9_v4.15/noise/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d7.9_v4.15/tran/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v7.86/ac/transimpedance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v7.86/ac/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v7.86/op/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v7.86/noise/noise.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v7.86/noise/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/receiver_runs/d35.6_v7.86/tran/raw.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v4.15/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v4.15/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v4.15/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v4.15/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v7.86/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v7.86/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v7.86/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v7.86/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86_time0.5/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86_time0.5/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86_time0.5/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86_time0.5/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15_time0.5/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15_time0.5/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15_time0.5/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15_time0.5/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v1.55/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v1.55/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v1.55/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v1.55/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v1.55_time0.5/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v1.55_time0.5/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v1.55_time0.5/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v1.55_time0.5/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86_time0.25/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86_time0.25/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86_time0.25/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86_time0.25/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v1.55/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v1.55/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v1.55/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v1.55/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v1.55/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v1.55/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v1.55/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v1.55/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v7.86/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v4.15/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v4.15/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v4.15/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d7.9_v4.15/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v7.86/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v7.86/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v7.86/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v7.86/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v7.86_time0.5/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v7.86_time0.5/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v7.86_time0.5/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v7.86_time0.5/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15_meshhalf/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v4.15_meshhalf/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v4.15_time0.5/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v4.15_time0.5/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v4.15_time0.5/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d35.6_v4.15_time0.5/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v1.55_time0.5/photocurrent_replay.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v1.55_time0.5/optical_step.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v1.55_time0.5/admittance.csv",
+      "reason": "macOS dataless cloud placeholder"
+    },
+    {
+      "path": "pin/runs/d20.8_v1.55_time0.5/fields.csv",
+      "reason": "macOS dataless cloud placeholder"
+    }
+  ],
+  "note": "Historical scalar summaries are in pin/. Raw waveforms and the listed cloud-only assets are unavailable. Fresh results are written to generated/pin/."
+}

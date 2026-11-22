@@ -1,0 +1,9 @@
+{
+  "case_id": "d20.8_v4.15",
+  "ac_light_100khz_f": 1.2891452015598129e-12,
+  "electron_inventory_capacitance_f": 1.2891452355192113e-12,
+  "hole_inventory_capacitance_f": 1.2891452355192113e-12,
+  "electron_relative_difference_pct": 2.634257054013e-06,
+  "hole_relative_difference_pct": 2.634257054013e-06,
+  "note": "Each carrier-inventory derivative is compared separately; do not sum. Finite-frequency/transport effects may cause discrepancy, which must be reported."
+}

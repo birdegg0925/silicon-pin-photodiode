@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-22",
+  "saved_evidence_cross_consistency": "PASS",
+  "bundled_tia_model_hash": "PASS",
+  "python_syntax": "PASS",
+  "relocated_copy_evidence_check": "PASS",
+  "fresh_device_dc_ac": {
+    "case": "d35.6_v7.86",
+    "scope": "Fresh DEVSIM DC and 100 kHz AC only; not a transient or full receiver reproduction",
+    "photocurrent_a": 3.9157211097372195e-07,
+    "capacitance_f": 7.985085283146262e-13,
+    "reference_photocurrent_a": 3.9157211097372195e-07,
+    "reference_capacitance_f": 7.985085283146262e-13,
+    "pass": true
+  },
+  "full_device_grid_and_transient_rerun_this_packaging": "NOT RUN",
+  "full_receiver_rerun_this_packaging": "NOT RUN",
+  "no_other_project_checkout_required": true,
+  "simulators_required_separately": [
+    "DEVSIM",
+    "LTspice"
+  ],
+  "note": "Numerical values in historical evidence are not edited. All full reruns write generated/.",
+  "fresh_receiver_ac": {
+    "scope": "Fresh LTspice AC using preserved device operating point, not full device/transient reproduction",
+    "upper_3db_hz": 5912414.062857938,
+    "reference_upper_3db_hz": 5912414.062857938,
+    "pass": true
+  }
+}

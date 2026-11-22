@@ -1,0 +1,31 @@
+{
+  "status": "Selected by preregistered criteria",
+  "feedback_resistance_ohm": 81600.0,
+  "feedback_capacitance_f": 3.6e-13,
+  "detector_capacitance_f": 3.54e-12,
+  "selected_metrics": {
+    "feedback_capacitance_f": 3.6e-13,
+    "low_frequency_transimpedance_ohm": 81599.9845854752,
+    "bandwidth_hz": 7418736.336825687,
+    "peaking_db": 0.0,
+    "initial_output_v": 1.0631635075291355,
+    "final_output_v": 1.0909075022858417,
+    "step_output_v": 0.027743994756706192,
+    "rise_10_90_s": 4.656935098273154e-08,
+    "settling_2pct_s": 7.634241376113409e-08,
+    "overshoot_pct": 1.3838408447202966,
+    "tail_range_fraction": 2.56106859156737e-12,
+    "t10_from_edge_start_s": 1.4930972323862803e-08,
+    "t90_from_edge_start_s": 6.150032330659434e-08,
+    "timing_definition": "10-90 rise and last crossing into +/-2% of increment; settling measured from start of 10 ns input edge; finite 8 us observation",
+    "core_power_w": 0.0005476498169542833,
+    "passes_prespecified_criteria": true
+  },
+  "original_model_sha256": "557401ea49c66028ee12c9db3faea3f7b2400673bdd118d3c14bb1ffde9d3e0a",
+  "model_path": "tia/original_tia.lib",
+  "selected_ac_netlist": "tia/runs/cf_0.36pf/ac/test.cir",
+  "core_supply_v": 1.8,
+  "reference_v": 0.9,
+  "internal_compensation_f": 1e-12,
+  "output_load_f": 1e-12
+}

@@ -1,0 +1,43 @@
+{
+  "sha256": "24238688dbcb5d609cdd7d1aadb7f55f7b51b09259b85de6b1520c9075ef8363",
+  "model_sha256": "557401ea49c66028ee12c9db3faea3f7b2400673bdd118d3c14bb1ffde9d3e0a",
+  "source_model": "support/models/original_tia.lib",
+  "case": {
+    "case_id": "d20.8_v4.15",
+    "capacitance_f": 1.2891452015598129e-12,
+    "photocurrent_a": 3.1026356043787646e-07,
+    "dark_current_a": 3.3245258594237894e-09,
+    "responsivity_a_w": 0.31026356043787645,
+    "reverse_bias_v": 4.15,
+    "absorber_thickness_um": 20.8,
+    "device_summary_path": "pin/runs/d20.8_v4.15_time0.5/summary.json",
+    "device_summary_sha256": "89e4a936f0c162ea36c0f69e7caf7fa27ad5905518a98386134860188bd6d6b1",
+    "optical_pulse_csv": "pin/runs/d20.8_v4.15_time0.5/photocurrent_replay.csv"
+  },
+  "settings": {
+    "supply_v": 1.8,
+    "reference_v": 0.9,
+    "feedback_resistance_ohm": 81600.0,
+    "feedback_capacitance_f": 3.6e-13,
+    "output_load_f": 1e-12,
+    "internal_compensation_f": 1e-12,
+    "temperature_c": 26.85,
+    "ac_start_hz": 10.0,
+    "ac_stop_hz": 1000000000.0,
+    "ac_points_per_decade": 160,
+    "noise_low_hz": 1000.0,
+    "noise_high_hz": 10000000.0,
+    "transient_max_step_s": 2.5e-10,
+    "timeout_s": 180
+  },
+  "analysis": "noise",
+  "success": true,
+  "command": [
+    "/Applications/LTspice.app/Contents/SharedSupport/ltspice/LTspice/run_ltspice",
+    "-b",
+    "-ascii",
+    "test.cir"
+  ],
+  "returncode": 0,
+  "elapsed_s": 11.740378856658936
+}

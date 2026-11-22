@@ -1,0 +1,29 @@
+{
+  "criterion": "Evaluate all nine; any candidate for a speed-oriented reference must have R >=0.28 A/W and converged optical 2% settling <=10 ns. Among passing tested conditions, prefer lowest bias, then higher responsivity. This is a declared educational criterion, not an external product specification.",
+  "chosen": {
+    "case_id": "d20.8_v4.15",
+    "status": "simulated",
+    "thickness_um": 20.8,
+    "reverse_bias_v": 4.15,
+    "responsivity_a_w": 0.31026356043787645,
+    "capacitance_light_pf": 1.2891452015598128,
+    "photocurrent_ua": 0.31026356043787645,
+    "dark_current_na": 3.3245258594237894,
+    "rise_ns": 0.9614662712792585,
+    "settling_ns": 1.825,
+    "time_scale": 0.5,
+    "timing_convergence_pass": true,
+    "collected_fraction_of_absorbed_photons": 0.9827294493184878,
+    "max_field_v_cm": 11842.686708271605,
+    "terminal_current_imbalance_a": 0.0,
+    "transient_final_relative_error": 0.0,
+    "source_folder": "runs/d20.8_v4.15_time0.5",
+    "physics_checks_pass": true
+  },
+  "eligible_case_ids": [
+    "d20.8_v4.15",
+    "d20.8_v7.86",
+    "d35.6_v7.86"
+  ],
+  "qualification": "Selected reference passed the predeclared DC/capacitance mesh check; independent carrier-inventory capacitance crosscheck completed. See both audit files. Dynamic spatial-mesh convergence, fabrication and calibrated device accuracy are not claimed."
+}
