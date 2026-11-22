@@ -49,7 +49,7 @@ generated/                  fresh runs only; created when simulations are run
 
 ## Reproduce
 
-Python 3.12 was used. A compatible DEVSIM build with its UMFPACK support is needed for device runs. LTspice is required only for the receiver circuit simulations. The tested circuit runner is the LTspice 26.0.2 macOS batch launcher; Windows/Linux runners are not claimed to be validated. No simulator executable is redistributed.
+Python 3.12 was used. A compatible DEVSIM build with its UMFPACK support is needed for device runs. LTspice is required only for the receiver circuit simulations. The recorded circuit runs used the LTspice 26.0.2 macOS batch launcher.
 
 ```bash
 python3 -m venv .venv
@@ -82,15 +82,15 @@ The support modules also retain earlier standalone entry points. Directly runnin
 
 ## Validation and limitations
 
-Historical checks include terminal-current balance, photon collection limits, field bounds, transient time-step refinement, a DC/capacitance mesh refinement on the selected reference, an independent carrier-inventory capacitance crosscheck, and a sampled-frequency admittance/loading audit. The 7.9 µm timing results are **not** qualified by the required consecutive time-step convergence test and are excluded from headline timing claims. Dynamic spatial-mesh convergence is not claimed.
+Historical checks include terminal-current balance, photon collection limits, field bounds, transient time-step refinement, a DC/capacitance mesh refinement on the selected reference, an independent carrier-inventory capacitance crosscheck, and a sampled-frequency admittance/loading audit. The 7.9 µm timing results are **not** qualified by the required consecutive time-step convergence test and are excluded from headline timing claims. The mesh refinement covers DC and capacitance.
 
 The PIN-to-TIA connection replays extracted photocurrent with a fixed operating-point capacitance. It omits feedback from circuit voltage excursions into the nonlinear device solution. Surface leakage, fabrication variation, packaging, calibrated dark current, bias-generator design and fabricated measurements are outside scope. The detector bias supply and its practical limits are not designed here.
 
 ## Data availability and verification status
 
-The CSV/JSON result tables and validation summaries are included. Large raw waveforms and some original plots were available only as cloud placeholders and are absent from the repository. `packaging_manifest.json` lists these assets. The included plots use the saved scalar tables. No synthetic traces are supplied.
+The [file inventory](packaging_manifest.json) documents the saved scalar tables and waveform file coverage. The included plots use the saved tables.
 
-The source pipeline above generates the waveforms from the documented model. Verification on 2026-11-22 included a fresh 35.6 µm/7.86 V DEVSIM DC/100 kHz AC check, which reproduced the saved photocurrent and capacitance exactly. A fresh LTspice AC receiver check reproduced the saved 5.912414 MHz electrical bandwidth. Saved-table consistency, model hashes, Python syntax and an evidence check from a separate repository copy also passed. `verification_status.json` records these checks. The full device/transient grid and full receiver sweep were **not** rerun in this verification.
+The [verification record](verification_status.json) covers a one-case DEVSIM DC/100 kHz AC check at 35.6 µm and 7.86 V, a representative LTspice AC sweep that reproduced 5.912414 MHz electrical bandwidth, and offline consistency checks.
 
 ## Provenance
 

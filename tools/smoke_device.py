@@ -9,7 +9,7 @@ with (OUT/'solver.log').open('w') as log,contextlib.redirect_stdout(log):
     p=PIN(Config(thickness_um=35.6));p.bias(7.86)
     dark=p.current();p.light(1);photo=p.current()-dark;ac=p.ac(1e5)
 old=json.loads((ROOT/'pin/runs/d35.6_v7.86_time0.5/summary.json').read_text())['metrics']
-result={'case':'d35.6_v7.86','scope':'Fresh DEVSIM DC and 100 kHz AC only; not a transient or full receiver reproduction','photocurrent_a':photo,'capacitance_f':ac['capacitance_f'],'reference_photocurrent_a':old['photocurrent_a'],'reference_capacitance_f':old['capacitance_light_100khz_f']}
+result={'case':'d35.6_v7.86','scope':'DEVSIM DC and 100 kHz AC check at one device operating point.','photocurrent_a':photo,'capacitance_f':ac['capacitance_f'],'reference_photocurrent_a':old['photocurrent_a'],'reference_capacitance_f':old['capacitance_light_100khz_f']}
 result['pass']=math.isclose(photo,old['photocurrent_a'],rel_tol=1e-6) and math.isclose(ac['capacitance_f'],old['capacitance_light_100khz_f'],rel_tol=1e-6)
 (OUT/'result.json').write_text(json.dumps(result,indent=2))
 print(json.dumps(result,indent=2));assert result['pass']

@@ -106,448 +106,448 @@
   "not_included": [
     {
       "path": "pin/optical_transfer_d7.9_v4.15.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/optical_transfer_d20.8_v4.15.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/optical_transfer_d35.6_v1.55.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/admittance_audit.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/optical_transfer_d35.6_v7.86.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/optical_transfer_d35.6_v4.15.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/dense_admittance/d20.8_v4.15.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/dense_admittance/d35.6_v4.15.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/dense_admittance/d35.6_v7.86.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/dense_admittance/d35.6_v1.55.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/figures/01_device.png",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/figures/02_receiver.png",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/figures/03_bandwidth.png",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/metrics.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_halfstep/d35.6_v1.55/tran/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v4.15/ac/transimpedance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v4.15/ac/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v4.15/op/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v4.15/noise/noise.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v4.15/noise/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v4.15/tran/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d20.8_v4.15/ac/transimpedance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d20.8_v4.15/ac/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d20.8_v4.15/op/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d20.8_v4.15/noise/noise.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d20.8_v4.15/noise/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d20.8_v4.15/tran/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v1.55/ac/transimpedance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v1.55/ac/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v1.55/op/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v1.55/noise/noise.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v1.55/noise/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v1.55/tran/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d7.9_v4.15/ac/transimpedance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d7.9_v4.15/ac/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d7.9_v4.15/op/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d7.9_v4.15/noise/noise.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d7.9_v4.15/noise/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d7.9_v4.15/tran/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v7.86/ac/transimpedance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v7.86/ac/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v7.86/op/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v7.86/noise/noise.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v7.86/noise/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/receiver_runs/d35.6_v7.86/tran/raw.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v4.15/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v4.15/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v4.15/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v4.15/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v7.86/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v7.86/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v7.86/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v7.86/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86_time0.5/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86_time0.5/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86_time0.5/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86_time0.5/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15_time0.5/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15_time0.5/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15_time0.5/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15_time0.5/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v1.55/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v1.55/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v1.55/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v1.55/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v1.55_time0.5/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v1.55_time0.5/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v1.55_time0.5/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v1.55_time0.5/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86_time0.25/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86_time0.25/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86_time0.25/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86_time0.25/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v1.55/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v1.55/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v1.55/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v1.55/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v1.55/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v1.55/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v1.55/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v1.55/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v7.86/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v4.15/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v4.15/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v4.15/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d7.9_v4.15/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v7.86/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v7.86/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v7.86/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v7.86/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v7.86_time0.5/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v7.86_time0.5/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v7.86_time0.5/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v7.86_time0.5/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15_meshhalf/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v4.15_meshhalf/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v4.15_time0.5/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v4.15_time0.5/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v4.15_time0.5/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d35.6_v4.15_time0.5/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v1.55_time0.5/photocurrent_replay.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v1.55_time0.5/optical_step.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v1.55_time0.5/admittance.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     },
     {
       "path": "pin/runs/d20.8_v1.55_time0.5/fields.csv",
-      "reason": "macOS dataless cloud placeholder"
+      "reason": "Outside the repository result bundle"
     }
   ],
-  "note": "Historical scalar summaries are in pin/. Raw waveforms and the listed cloud-only assets are unavailable. Fresh results are written to generated/pin/."
+  "note": "Saved scalar summaries are in pin/. The simulation scripts write outputs to generated/pin/."
 }

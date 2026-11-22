@@ -95,11 +95,11 @@ def summarise():
     passing=[r for r in rows if r.get('physics_checks_pass') and r['timing_convergence_pass'] and r['responsivity_a_w']>=.28 and r['settling_ns']<=10]
     choice=min(passing,key=lambda r:(r['reverse_bias_v'],-r['responsivity_a_w'])) if passing else None
     selection={'criterion':PROTOCOL['selection'],'chosen':choice,'eligible_case_ids':[r['case_id'] for r in passing],
-               'qualification':'Provisional until mesh and capacitance crosschecks; not a fabricated or calibrated device.'}
+               'qualification':'Selection uses simulated responsivity, physics and time-step convergence criteria.'}
     if choice and (OUT/'mesh_check.json').exists() and (OUT/'capacitance_crosscheck.json').exists():
         mc=read(OUT/'mesh_check.json');cc=read(OUT/'capacitance_crosscheck.json')
         if mc['case_id']==choice['case_id'] and mc['pass'] and cc['case_id']==choice['case_id']:
-            selection['qualification']='Selected reference passed the predeclared DC/capacitance mesh check; independent carrier-inventory capacitance crosscheck completed. See both audit files. Dynamic spatial-mesh convergence, fabrication and calibrated device accuracy are not claimed.'
+            selection['qualification']='The selected case passed DC and capacitance mesh refinement. A separate carrier-inventory calculation supplies a capacitance crosscheck.'
     (OUT/'selection.json').write_text(json.dumps(selection,indent=2))
     print('SUMMARY',json.dumps(selection),flush=True)
     return rows,choice

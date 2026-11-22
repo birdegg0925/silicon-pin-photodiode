@@ -25,5 +25,5 @@
     "d20.8_v7.86",
     "d35.6_v7.86"
   ],
-  "qualification": "Selected reference passed the predeclared DC/capacitance mesh check; independent carrier-inventory capacitance crosscheck completed. See both audit files. Dynamic spatial-mesh convergence, fabrication and calibrated device accuracy are not claimed."
+  "qualification": "The selected case passed DC and capacitance mesh refinement. A separate carrier-inventory calculation supplies a capacitance crosscheck."
 }

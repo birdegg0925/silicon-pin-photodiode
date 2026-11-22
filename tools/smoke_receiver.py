@@ -10,5 +10,5 @@ case={k:v for k,v in source['conditions'].items() if k in ['case_id','capacitanc
 settings={**ti.DEFAULTS,**{k:source['conditions'][k] for k in ti.DEFAULTS if k in source['conditions']}}
 out=ROOT/'generated/smoke_receiver'
 result=ti.run_case(case,settings,'ac',(ROOT/'tia/original_tia.lib').read_text(),out,force=True)
-check={'scope':'Fresh LTspice AC using preserved device operating point, not full device/transient reproduction','upper_3db_hz':result['upper_3db_hz'],'reference_upper_3db_hz':source['upper_3db_hz'],'pass':math.isclose(result['upper_3db_hz'],source['upper_3db_hz'],rel_tol=1e-5)}
+check={'scope':'LTspice AC check using the saved device operating point.','upper_3db_hz':result['upper_3db_hz'],'reference_upper_3db_hz':source['upper_3db_hz'],'pass':math.isclose(result['upper_3db_hz'],source['upper_3db_hz'],rel_tol=1e-5)}
 (out/'verification.json').write_text(json.dumps(check,indent=2));print(json.dumps(check,indent=2));assert check['pass']
